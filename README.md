@@ -1,17 +1,15 @@
-# Attention-CNN-relation-extraction
-Implementation of [Attention-Based Convolutional Neural Network for Semantic Relation Extraction](https://www.aclweb.org/anthology/C16-1238.pdf).
-
-## Environment Requirements
-* python 3.6
-* pytorch 1.3.0
-
 ## Data
-* [SemEval2010 Task8](https://drive.google.com/file/d/0B_jQiLugGTAkMDQ5ZjZiMTUtMzQ1Yy00YWNmLWJlZDYtOWY1ZDMwY2U4YjFk/view?sort=name&layout=list&num=50) \[[paper](https://www.aclweb.org/anthology/S10-1006.pdf)\]
+* [SemEval2010 Task8](https://drive.google.com/file/d/0B_jQiLugGTAkMDQ5ZjZiMTUtMzQ1Yy00YWNmLWJlZDYtOWY1ZDMwY2U4YjFk/view?sort=name&layout=list&num=50)
 * [Google News - Mikolov et
-al.(2010)](https://code.google.com/archive/p/word2vec/) \[[paper](http://papers.nips.cc/paper/5021-distributed-representations-of-words-and-phrases-and-their-compositionality.pdf)\]
+al.(2010)](https://code.google.com/archive/p/word2vec/)
 
 ## Usage
-1. Download the embedding in the `embedding` folder and use `convert.py` to convert it to the `UTF-8` format.
+1. 
+1. Download the embedding and put it in the `embedding` folder.
+2. Run `convert.py`
+```shell
+python3 convert.py
+```
 2. Run the following the commands to start the program.
 ```shell
 python run.py
